@@ -1,10 +1,10 @@
-# 🎮 Juego del Ahorcado - Python Modular
+# Juego del Ahorcado - Python Modular
 
 Este proyecto consiste en una versión clásica del juego "El Ahorcado", desarrollada en Python. El programa aplica conceptos de **programación modular**, separando la lógica del motor del juego de la interfaz de usuario para mejorar la organización y escalabilidad.
 
 ---
 
-## 📋 Objetivo del Programa
+## Objetivo del Programa
 El objetivo principal es proporcionar una experiencia de juego interactiva por consola donde el usuario pueda poner a prueba su vocabulario. Técnicamente, el proyecto busca demostrar el uso de:
 *   Importación de librerías personalizadas.
 *   Manejo de estructuras de control (bucles y condicionales).
@@ -12,7 +12,7 @@ El objetivo principal es proporcionar una experiencia de juego interactiva por c
 
 ---
 
-## 🚀 Funcionalidades Principales
+## Funcionalidades Principales
 
 1.  **Programación Modular:** El código se divide en una librería lógica (`motor_juego.py`) y un ejecutable principal (`main.py`).
 2.  **Gestión de Usuario:** El sistema solicita y almacena temporalmente el nombre y la edad del jugador para personalizar la partida.
@@ -25,26 +25,10 @@ El objetivo principal es proporcionar una experiencia de juego interactiva por c
 
 ---
 
-## 🛠️ Estructura del Proyecto
+## Estructura del Proyecto
 
 *   `main.py`: Punto de entrada del programa. Contiene el menú y la gestión de la interfaz de usuario.
-*   `motor_juego.py`: Librería que contiene la lógica, las palabras secretas y el control de vidas.
-
----
-
-## 👥 Datos del Grupo
-*   **Nombre del Proyecto:** El Ahorcado Pythonic
-*   **Integrantes:**
-    *   [Nombre del Integrante 1]
-    *   [Nombre del Integrante 2]
-    *   [Nombre del Integrante 3]
-*   **Curso/Materia:** [Nombre de la Materia]
-*   **Institución:** [Nombre de la Institución]
-
----
-
-## 📅 Fecha
-**1 de marzo de 2026**
+*   `ahorcado_lib.py`: Librería que contiene la lógica, las palabras secretas y el control de vidas.
 
 ---
 
